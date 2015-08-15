@@ -3,18 +3,18 @@ A couple subroutines that will be useful in the end times.
 Still in beta.  Final release coming soon!!!
 */
 
-package chapter4;
-import java.util.Scanner;
+    package chapter4;
+    import java.util.Scanner;
 
-public class Chapter4 {
-static Scanner scan = new Scanner (System.in);
-static int passwordCount;
-static String name;
-static boolean containsLetters;
-static String password;
-static String[] passwordKeeper = new String [3];
-static String passwordFriend;
-static int numberOfPeople;
+    public class Chapter4 {
+    static Scanner scan = new Scanner (System.in);
+    static int passwordCount;
+    static String name;
+    static boolean containsLetters;
+    static String password;
+    static String[] passwordKeeper = new String [3];
+    static String passwordFriend;
+    static int numberOfPeople;
 
 
     static void nameId(String name){
